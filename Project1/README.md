@@ -1,5 +1,5 @@
 ## 📌 Project Overview
-This project is dedicated to cleaning and analyzing a dataset of 670+ Data Science job postings. The raw data was very unstructured, comprising of dirty salary ranges, company ratings embedded in names, and job descriptions in long format. I converted this to a structured format using **PostgreSQL** in order to get insights into the trends of salaries, industry demand, and essential technical skills.
+The goal of this project is to clean and analyze a dataset, which contains more than 670 Data Science job postings. The raw data was extremely unstructured that it contained unorganized pay scales, company rating in the form of names and long format job descriptions. I translated this into a structured format with the help of  **PostgreSQL** in order to obtain data about the trends of salaries, industry demand and necessary technical skills.
 
 ---
 
@@ -45,8 +45,8 @@ Key Business Insights:
 
 * **The Python Premium:** Python is the most critical technical requirement, appearing in 73.07% of all job postings, followed by SQL (52.98%).
 * **High Paying Industries:** The Research & Development ($136k) and Aerospace & Defense ($132k) sectors offer the highest average compensation.
-* *Geographic Hubs:** California and New York lead in the total number of jobs, whereas Washington DC ($139k) is the top-paying location by average salary.
-* *The Culture Paradox:** Analysis confirms zero correlation between company ratings and salary, meaning high-paying roles are available across both top-rated and average-rated companies.
+* *Geographic Hubs:** California and New York earn the most jobs in total, but Washington DC will pay the highest on average salary of $139k.
+* *The Culture Paradox:** The results of the analysis indicate that there is zero correlation between the rating of a company and the salary, i.e., the positions with high salary are offered in both highly rated and average-rated company.
 
 **Note on Data Discrepancy:** There is a slight numerical difference between the results of the raw SQL queries and the Tableau dashboard. This is due to the filtering of -1 values (placeholders for missing data) during the Tableau visualization phase to ensure that null values did not skew the final averages and insights. 
 
