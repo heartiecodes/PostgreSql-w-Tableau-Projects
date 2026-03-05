@@ -29,12 +29,12 @@ The cleaning involved a number of complicated SQL functions to transform the raw
 * **Feature Engineering:** Boolean flags (0/1) for major skills (Python, SQL, Excel, Tableau) were created by searching the text in the Job Description with `ILIKE` patterns.
 
 **Key Insights from the Analysis**
-* **Python is Non-Negotiable:** Our text-mining analysis revealed that 73.07% of all job postings specifically require Python, making it the single most dominant technical requirement in the market.
-* **The Power of SQL:** Close behind Python, SQL appeared in 52.98% of job descriptions, confirming that the "Modern Data Stack" still centers heavily on database management.
-* **The Geographic Salary Peak:** While California and New York hold the highest volume of jobs, Washington DC leads in compensation with an average salary of $139k, likely driven by specialized public sector and high-security analytics roles.
-* **High-Value Industries:** The Research & Development ($136k) and Aerospace & Defense ($132k) sectors command the highest salary premiums, outperforming traditional tech and finance sectors for data science roles.
-* **Rating vs. Salary (The Myth):** SQL correlation queries and Tableau scatter plots confirmed there is zero statistical link between a company’s Glassdoor rating and the salary they offer. High-paying roles are just as likely to be found in "average-rated" companies.
-* **The "Specialist" Premium:** Jobs requiring specialized skills like Tableau or AWS alongside Python showed a salary increase of approximately 10-15% compared to generalist listings.
+* **Python is Non-Negotiable:** Our text-mining approach revealed that 73.07% of all postings explicitly mention Python, and it is the dominant technical requirement in the market that is prevailing in the market.
+* **Close attachment to SQL:** SQL, which came immediately after Python, was mentioned in 52.98% of job descriptions, showing that the "Modern Data Stack" remains primarily focused on database management.
+* **The Geographic Payroll Peak:** California and New York will have the most number of jobs, but Washington DC is the highest paying with an average wage of 139k, possibly because of its specialty jobs in the public sector and jobs related to high security analytics.
+* **High-Value Industries:** The Research and development ($136k) and Aerospace and Defense industries (132k) represent the best paying sectors, and their data science jobs are doing better than the traditional technology and finance sectors.
+* **Rating vs. Salary (The Myth):** QL correlation queries and Tableau scatter plots have verified that there exists no zero level statistical correlation between Glassdoor rating of a company and salary that a company is offering. The better-paid positions are equally likely to be available in "average-rated" firms.
+* **The "Specialist" Premium:** Occupations with specialized knowledge such as Tableau or AWS and Python were associated with a rise in salary by about 10-15 percent in comparison to generalist advertisements.
 
 
 ### 📊 Project 1: Tableau — Data Science Job Market Visualization & Insights
